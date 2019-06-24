@@ -8,5 +8,5 @@ services:
       dockerfile: Dockerfile
     container_name: gradle
     command: /home/gradle/start.sh
-    volumes:
-      - /opt/:/home/gradle/initial/build/libs/
+    
+    

@@ -9,6 +9,6 @@ WORKDIR /home/gradle
 #Downloading sping-boot
 
 RUN apt-get update -y && apt-get upgrade -y
-RUN apt-get install openjdk-8-jdk -y && apt-get install wget -y
+RUN apt-get install openjdk-8-jdk -y
 
 ADD start.sh /home/gradle
