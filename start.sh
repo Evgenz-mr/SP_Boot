@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ ! -f /home/gradle/*.jar ]
 then
-    echo "=======STARTING SPRIN_BOOT========"
+    echo "=======STARTING SPRINT_BOOT========"
 fi
-java -jar *.jar 2> /dev/null 
+java -jar initial/build/libs/*.jar  

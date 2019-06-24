@@ -7,5 +7,6 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: gradle
+    command: /home/gradle/start.sh
     volumes:
-      - /opt/:/home/gradle/gs-spring-boot-master/initial/build/libs/
+      - /opt/:/home/gradle/initial/build/libs/
