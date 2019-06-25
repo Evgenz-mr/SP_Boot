@@ -1,6 +1,5 @@
-pwd
-ls
-if [ ! -f /home/gradle/initial/build/libs/*.jar ]
+cd initial/build/libs/
+if [ ! -f initial/build/libs/*.jar ]
 then
     echo "=======COPY_ARTEFACT_TO_HOST========"
 fi
