@@ -9,5 +9,5 @@ services:
     container_name: gradle
     command: /home/gradle/start.sh
     volumes:
-      - /root/12/artefacts/gs-spring-boot-0.1.0.jar:/home/gradle/    
-    
+      - ./artefacts/gs-spring-boot-0.1.0.jar:/home/gradle/gs-spring-boot-0.1.0.jar    
+   
