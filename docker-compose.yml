@@ -9,5 +9,5 @@ services:
     container_name: gradle
     command: /home/gradle/start.sh
     volumes:
-      - /root/12/*.jar:/home/gradle/*.jar    
+      - /root/12/artefacts/:/home/gradle/    
     
