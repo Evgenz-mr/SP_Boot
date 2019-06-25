@@ -1,4 +1,4 @@
-cd /initial/build/libs/
+cd home/gradle/initial/build/libs/
 if [ ! -f /home/gradle/initial/build/libs/*.jar ]
 then
     echo "=======COPY_ARTEFACT_TO_HOST========"
